@@ -1,24 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Components/Home.js';
+import About from './Components/About.js';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Skills from './Components/Skill.js';
+import Experience from './Components/Exprience.js';
+import Projects from './Components/Project.js';
+import Resume from './Components/Resume.js';
+import Contact from './Components/Contact.js';
+import Footer from './Components/Footer.js';
+import Navigation from './Components/Navbar.js';
+import { useEffect } from 'react';
+
+
+
 
 function App() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: "ease-in-out"
+    });
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation/>
+      <Home />
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Experience/>
+      <Resume/>
+      <Contact/>
+      <Footer/>
+      
+    </>
+    
   );
 }
 

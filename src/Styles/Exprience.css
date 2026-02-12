@@ -1,0 +1,107 @@
+.experience-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #141414, #050505);
+  color: #fff;
+  padding: 80px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #6f42c1;
+  margin-bottom: 70px;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+}
+
+/* Center Line */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(#6f42c1, #00e5ff);
+  opacity: 0.6;
+}
+
+/* Timeline Item */
+.timeline-item {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+/* Box */
+.timeline-box {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 25px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.8);
+}
+
+.timeline-box h4 {
+  margin-bottom: 5px;
+  color: #00e5ff;
+}
+
+.company {
+  color: #6f42c1;
+  margin-bottom: 6px;
+}
+
+.date {
+  display: block;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.timeline-box p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Icon */
+.timeline-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: #fff;
+  z-index: 2;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+}
+
+.timeline-icon.work {
+  background: linear-gradient(135deg, #6f42c1, #00e5ff);
+}
+
+.timeline-icon.edu {
+  background: linear-gradient(135deg, #00c853, #64ffda);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 10px;
+  }
+
+  .timeline-item {
+    margin-left: 30px;
+  }
+
+  .timeline-box {
+    margin-bottom: 30px;
+  }
+}

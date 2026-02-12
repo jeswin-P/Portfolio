@@ -1,0 +1,31 @@
+/* About Section */
+
+.about-section {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 0;
+}
+
+/* Title */
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Main Text */
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e9ecef;
+}
+
+/* Sub Text */
+.about-subtext {
+  font-size: 1rem;
+  color: #adb5bd;
+  line-height: 1.6;
+}
