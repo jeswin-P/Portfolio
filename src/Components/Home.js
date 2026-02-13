@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import "../Styles/Home.css"
 import jp from '../assest/jp.png'
-import { FaGithub, FaLinkedin,  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, } from "react-icons/fa";
 
 
 function Home() {
@@ -84,7 +84,7 @@ function Home() {
                             </div>
 
 
-                            <div className="d-flex gap-3 mt-4 justify-content-center justify-content-md-start">
+                            <div className="d-flex gap-3 mt-4 justify-content-center justify-content-md-start home-action-buttons">
 
                                 <a
                                     href="/resume.pdf.pdf"
