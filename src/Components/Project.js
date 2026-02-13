@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "../Styles/Project.css"
+import Book from '../assest/Bookworld.png'
 
 const projects = [
   {
     title: "BOOKWORLD-Library Management ",
     description: "A real-time chat application with authentication, friend requests, and improved UI.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    image: "https://via.placeholder.com/600x400/2a2a2a/ffffff?text=Chat+App",
-    github: "#",
-    demo: "#",
+    image: Book,
+    github: "https://github.com/jeswin-P/BOOKWORLD",
+    demo: "https://bookworld-nu.vercel.app/",
     category: "MERN"
   },
   {
