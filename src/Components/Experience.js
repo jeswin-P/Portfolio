@@ -1,9 +1,9 @@
 import React from "react";
-import "../Styles/Exprience.css";
+import "../Styles/Experience.css";
 import { motion } from "framer-motion";
 import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 
-export default function Experience() {
+function Experience() {
   return (
     <section className="experience-section" id="experience">
       <div className="container">
@@ -95,3 +95,5 @@ export default function Experience() {
     </section>
   );
 }
+
+export default Experience;
