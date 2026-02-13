@@ -11,6 +11,7 @@ import Resume from './Components/Resume.js';
 import Contact from './Components/Contact.js';
 import Footer from './Components/Footer.js';
 import Navigation from './Components/Navbar.js';
+
 import { useEffect } from 'react';
 
 
