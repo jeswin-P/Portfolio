@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import "../Styles/Home.css"
 import jp from '../assest/jp.png'
 import { FaGithub, FaLinkedin, } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 
 function Home() {
@@ -72,14 +73,14 @@ function Home() {
                                     <FaLinkedin />
                                 </a>
 
-                                {/* <a
-                                    href="https://instagram.com/yourusername"
+                                <a
+                                    href="https://x.com/Jeswin_P_dev"
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="social-icon instagram"
+                                    className="social-icon twitter"
                                 >
-                                    <FaInstagram />
-                                </a> */}
+                                    <FaXTwitter />
+                                </a>
 
                             </div>
 

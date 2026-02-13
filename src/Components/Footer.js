@@ -3,9 +3,9 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaTwitter,
   FaInstagram
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -28,7 +28,7 @@ function Footer() {
 
               {/* Github */}
               <a
-                href="https://github.com"
+                href="https://github.com/jeswin-P"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white fs-4 social-icon"
@@ -38,7 +38,7 @@ function Footer() {
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/jeswin-p"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white fs-4 social-icon"
@@ -48,17 +48,17 @@ function Footer() {
 
               {/* Twitter */}
               <a
-                href="https://twitter.com"
+                href="https://x.com/Jeswin_P_dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white fs-4 social-icon"
               >
-                <FaTwitter />
+                <FaXTwitter />
               </a>
 
               {/* Instagram */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/jeswin_.p?igsh=MXg0ZGplOGJza2g3NQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white fs-4 social-icon"
@@ -68,7 +68,7 @@ function Footer() {
 
               {/* Mail */}
               <a
-                href="mailto:jeswin@example.com"
+                href="jeswin.p.dev@gmail.com"
                 className="text-white fs-4 social-icon"
               >
                 <FaEnvelope />
