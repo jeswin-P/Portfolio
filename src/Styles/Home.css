@@ -145,7 +145,7 @@
     margin-bottom: 20px;
   }
 
-  .gap-3 {
+  .home-action-buttons {
     flex-direction: column;
     align-items: center;
     gap: 1rem !important;
