@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaPaperPlane } from "react-icons/fa";
+import '../Styles/Contact.css'
 
 function Contact() {
   const form = useRef();
@@ -75,7 +76,7 @@ function Contact() {
 
               {/* Name */}
               <div className="mb-3">
-                <label className="form-label">Name</label>
+                <label className="form-label fw-semibold">Name</label>
 
                 <input
                   type="text"
@@ -88,7 +89,7 @@ function Contact() {
 
               {/* Email */}
               <div className="mb-3">
-                <label className="form-label">Email</label>
+                <label className="form-label fw-semibold">Email</label>
 
                 <input
                   type="email"
@@ -101,7 +102,7 @@ function Contact() {
 
               {/* Message */}
               <div className="mb-4">
-                <label className="form-label">Message</label>
+                <label className="form-label fw-semibold">Message</label>
 
                 <textarea
                   name="message"
@@ -115,7 +116,7 @@ function Contact() {
               {/* Button */}
               <button
                 type="submit"
-                className="btn btn-primary w-100 d-flex align-items-center justify-content-center gap-2"
+                className="btn w-100 d-flex align-items-center justify-content-center gap-2 btn-send fw-bold"
                 disabled={isSending}
               >
                 {isSending ? (

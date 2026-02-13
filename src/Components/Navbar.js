@@ -40,7 +40,7 @@ function Navigation() {
                             className="logo-text"
                             onClick={closeMenu}
                         >
-                            &lt;Jeswin /&gt;
+                            JESWIN
                         </Link>
                     </div>
 

@@ -110,6 +110,7 @@ import {
   SiPostman,
   SiBootstrap,
   SiVercel,
+  SiExpress
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -120,6 +121,7 @@ import { VscVscode } from "react-icons/vsc";
     { name: "JavaScript", icon: <FaJs color="#F7DF1E" /> },
     { name: "React", icon: <FaReact color="#61DAFB" /> },
     { name: "Node.js", icon: <FaNodeJs color="#339933" /> },
+    { name: "Express.js", icon: <SiExpress color="white" /> },
     { name: "MongoDB", icon: <SiMongodb color="#47A248" /> },
     { name: "Bootstrap", icon: <SiBootstrap color="#7952B3" /> },
   ];

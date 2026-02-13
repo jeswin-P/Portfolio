@@ -37,11 +37,11 @@ function Experience() {
               >
                 <h4>MERN Stack Intern</h4>
                 <h6 className="company">Srishti Innovative</h6>
-                <span className="date">June 2025 - Present</span>
+                <span className="date">June 2024 - january 2025</span>
                 <p>
-                  Developed full-stack applications using MongoDB, Express,
-                  React, and Node.js. Worked with senior developers to build
-                  scalable features and optimize performance.
+                  MERN Stack Intern at Srishti Innovative, developing a library management
+                  system with user authentication, REST APIs, and responsive full-stack applications using MongoDB, Express,
+                  React, and Node.js.  
                 </p>
               </motion.div>
             </div>
@@ -78,9 +78,9 @@ function Experience() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7 }}
               >
-                <h4>Computer Science Degree</h4>
-                <h6 className="company">University Name</h6>
-                <span className="date">2021 - 2025</span>
+                <h4>B.E -Computer Science and Engineering</h4>
+                <h6 className="company">Ponjesly College of Engineering</h6>
+                <span className="date">2020 - 2024</span>
                 <p>
                   Focused on software engineering, algorithms, and web
                   technologies. Built academic projects and participated in
