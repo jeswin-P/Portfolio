@@ -84,7 +84,7 @@ function Home() {
                             </div>
 
 
-                            <div className="d-flex gap-3 mt-4">
+                            <div className="d-flex gap-3 mt-4 justify-content-center justify-content-md-start">
 
                                 <a
                                     href="/resume.pdf.pdf"
