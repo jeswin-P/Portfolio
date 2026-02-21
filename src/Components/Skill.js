@@ -110,7 +110,8 @@ import {
   SiPostman,
   SiBootstrap,
   SiVercel,
-  SiExpress
+  SiExpress,
+  SiRender
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -132,6 +133,7 @@ import { VscVscode } from "react-icons/vsc";
     { name: "VS Code", icon: <VscVscode color="#007ACC" /> },
     { name: "Postman", icon: <SiPostman color="#FF6C37" /> },
     { name: "Vercel", icon: <SiVercel color="#ffffff" /> },
+    { name: "render", icon: <SiRender color="#ffffff" /> },
   ];
 
   return (

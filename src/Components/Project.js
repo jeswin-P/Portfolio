@@ -18,6 +18,10 @@ import portfolio from "../assest/portfolio.png";
 import Skill from "../assest/skills.png";
 import contact from "../assest/contact.png";
 import project from "../assest/project.png";
+import dash from "../assest/Dashbord.png";
+import viewgrid from "../assest/viewgrid.png";
+import remove from "../assest/listandremove.png";
+import fullview from "../assest/fullview.png";
 
 
 const projects = [
@@ -60,6 +64,24 @@ const projects = [
     github: "https://github.com/jeswin-P/Portfolio",
     demo: "https://portfolio-jeswin-p.vercel.app",
     category: "React",
+  },
+  {
+    title: "3D Model Viewer",
+    description: "A full-stack 3D model showcase platform allowing users to upload, view, and manage interactive 3D models  in real-time.",
+
+    tech: ["React", "JavaScript", "Three.js", "Vercel","render", "Cloudinary"],
+
+    screenshots: [
+      { img:dash, text: "Upload section for adding new 3D models with instant Cloudinary storage." },
+      { img: viewgrid, text: "View grid interface for browsing uploaded 3D models in a grid layout." },
+      { img: remove, text: "List and remove functionality for managing uploaded 3D models." },
+      { img: fullview, text: "Full view mode for detailed   3D viewer for models with zoom, rotate, and pan support.." },
+    ],
+
+    extraDetails:"This project demonstrates a production-ready 3D model (.glb file) management system with permanent cloud storage, real-time interactions, and a clean responsive UI,  Features a clean dashboard, cloud storage via Cloudinary, and a responsive 3D viewer using Three.js",
+    github: "https://github.com/jeswin-P/3D-Model",
+    demo: "https://3-d-model-navy-nine.vercel.app",
+    category: "MERN",
   },
 ];
 
